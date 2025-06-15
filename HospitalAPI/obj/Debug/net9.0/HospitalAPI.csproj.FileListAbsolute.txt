@@ -62,8 +62,10 @@
 /Users/pankajyadav/MediNexus_API/HospitalAPI/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
 /Users/pankajyadav/MediNexus_API/HospitalAPI/bin/Debug/net9.0/HospitalBusiness.dll
 /Users/pankajyadav/MediNexus_API/HospitalAPI/bin/Debug/net9.0/HospitalData.dll
+/Users/pankajyadav/MediNexus_API/HospitalAPI/bin/Debug/net9.0/HospitalModels.dll
 /Users/pankajyadav/MediNexus_API/HospitalAPI/bin/Debug/net9.0/HospitalBusiness.pdb
 /Users/pankajyadav/MediNexus_API/HospitalAPI/bin/Debug/net9.0/HospitalData.pdb
+/Users/pankajyadav/MediNexus_API/HospitalAPI/bin/Debug/net9.0/HospitalModels.pdb
 /Users/pankajyadav/MediNexus_API/HospitalAPI/obj/Debug/net9.0/HospitalAPI.csproj.AssemblyReference.cache
 /Users/pankajyadav/MediNexus_API/HospitalAPI/obj/Debug/net9.0/HospitalAPI.GeneratedMSBuildEditorConfig.editorconfig
 /Users/pankajyadav/MediNexus_API/HospitalAPI/obj/Debug/net9.0/HospitalAPI.AssemblyInfoInputs.cache
@@ -71,6 +73,7 @@
 /Users/pankajyadav/MediNexus_API/HospitalAPI/obj/Debug/net9.0/HospitalAPI.csproj.CoreCompileInputs.cache
 /Users/pankajyadav/MediNexus_API/HospitalAPI/obj/Debug/net9.0/HospitalAPI.MvcApplicationPartsAssemblyInfo.cs
 /Users/pankajyadav/MediNexus_API/HospitalAPI/obj/Debug/net9.0/HospitalAPI.MvcApplicationPartsAssemblyInfo.cache
+/Users/pankajyadav/MediNexus_API/HospitalAPI/obj/Debug/net9.0/HospitalAPI.sourcelink.json
 /Users/pankajyadav/MediNexus_API/HospitalAPI/obj/Debug/net9.0/scopedcss/bundle/HospitalAPI.styles.css
 /Users/pankajyadav/MediNexus_API/HospitalAPI/obj/Debug/net9.0/staticwebassets.build.json
 /Users/pankajyadav/MediNexus_API/HospitalAPI/obj/Debug/net9.0/staticwebassets.development.json
