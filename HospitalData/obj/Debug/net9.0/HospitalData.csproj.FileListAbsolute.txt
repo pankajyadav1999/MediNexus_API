@@ -1,11 +1,15 @@
 /Users/pankajyadav/MediNexus_API/HospitalData/bin/Debug/net9.0/HospitalData.deps.json
 /Users/pankajyadav/MediNexus_API/HospitalData/bin/Debug/net9.0/HospitalData.dll
 /Users/pankajyadav/MediNexus_API/HospitalData/bin/Debug/net9.0/HospitalData.pdb
+/Users/pankajyadav/MediNexus_API/HospitalData/bin/Debug/net9.0/HospitalModels.dll
+/Users/pankajyadav/MediNexus_API/HospitalData/bin/Debug/net9.0/HospitalModels.pdb
 /Users/pankajyadav/MediNexus_API/HospitalData/obj/Debug/net9.0/HospitalData.csproj.AssemblyReference.cache
 /Users/pankajyadav/MediNexus_API/HospitalData/obj/Debug/net9.0/HospitalData.GeneratedMSBuildEditorConfig.editorconfig
 /Users/pankajyadav/MediNexus_API/HospitalData/obj/Debug/net9.0/HospitalData.AssemblyInfoInputs.cache
 /Users/pankajyadav/MediNexus_API/HospitalData/obj/Debug/net9.0/HospitalData.AssemblyInfo.cs
 /Users/pankajyadav/MediNexus_API/HospitalData/obj/Debug/net9.0/HospitalData.csproj.CoreCompileInputs.cache
+/Users/pankajyadav/MediNexus_API/HospitalData/obj/Debug/net9.0/HospitalData.sourcelink.json
+/Users/pankajyadav/MediNexus_API/HospitalData/obj/Debug/net9.0/Hospital.8BB0E579.Up2Date
 /Users/pankajyadav/MediNexus_API/HospitalData/obj/Debug/net9.0/HospitalData.dll
 /Users/pankajyadav/MediNexus_API/HospitalData/obj/Debug/net9.0/refint/HospitalData.dll
 /Users/pankajyadav/MediNexus_API/HospitalData/obj/Debug/net9.0/HospitalData.pdb

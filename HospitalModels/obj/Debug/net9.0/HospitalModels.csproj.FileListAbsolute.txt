@@ -1,0 +1,12 @@
+/Users/pankajyadav/MediNexus_API/HospitalModels/bin/Debug/net9.0/HospitalModels.deps.json
+/Users/pankajyadav/MediNexus_API/HospitalModels/bin/Debug/net9.0/HospitalModels.dll
+/Users/pankajyadav/MediNexus_API/HospitalModels/bin/Debug/net9.0/HospitalModels.pdb
+/Users/pankajyadav/MediNexus_API/HospitalModels/obj/Debug/net9.0/HospitalModels.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pankajyadav/MediNexus_API/HospitalModels/obj/Debug/net9.0/HospitalModels.AssemblyInfoInputs.cache
+/Users/pankajyadav/MediNexus_API/HospitalModels/obj/Debug/net9.0/HospitalModels.AssemblyInfo.cs
+/Users/pankajyadav/MediNexus_API/HospitalModels/obj/Debug/net9.0/HospitalModels.csproj.CoreCompileInputs.cache
+/Users/pankajyadav/MediNexus_API/HospitalModels/obj/Debug/net9.0/HospitalModels.sourcelink.json
+/Users/pankajyadav/MediNexus_API/HospitalModels/obj/Debug/net9.0/HospitalModels.dll
+/Users/pankajyadav/MediNexus_API/HospitalModels/obj/Debug/net9.0/refint/HospitalModels.dll
+/Users/pankajyadav/MediNexus_API/HospitalModels/obj/Debug/net9.0/HospitalModels.pdb
+/Users/pankajyadav/MediNexus_API/HospitalModels/obj/Debug/net9.0/ref/HospitalModels.dll

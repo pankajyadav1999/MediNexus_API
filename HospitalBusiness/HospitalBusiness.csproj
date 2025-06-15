@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HospitalData\HospitalData.csproj" />
+    <ProjectReference Include="..\HospitalModels\HospitalModels.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

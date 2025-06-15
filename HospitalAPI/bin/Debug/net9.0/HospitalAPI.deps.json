@@ -10,6 +10,8 @@
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "HospitalBusiness": "1.0.0",
+          "HospitalData": "1.0.0",
+          "HospitalModels": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "9.0.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.6"
         },
@@ -634,7 +636,8 @@
       },
       "HospitalBusiness/1.0.0": {
         "dependencies": {
-          "HospitalData": "1.0.0"
+          "HospitalData": "1.0.0",
+          "HospitalModels": "1.0.0"
         },
         "runtime": {
           "HospitalBusiness.dll": {
@@ -645,10 +648,21 @@
       },
       "HospitalData/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "9.0.6"
+          "HospitalModels": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "9.0.6",
+          "Microsoft.EntityFrameworkCore.Abstractions": "9.0.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.6"
         },
         "runtime": {
           "HospitalData.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "HospitalModels/1.0.0": {
+        "runtime": {
+          "HospitalModels.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1081,6 +1095,11 @@
       "sha512": ""
     },
     "HospitalData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HospitalModels/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
