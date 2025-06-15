@@ -1,0 +1,15 @@
+/Users/pankajyadav/MediNexus_API/HospitalBusiness/bin/Debug/net9.0/HospitalBusiness.deps.json
+/Users/pankajyadav/MediNexus_API/HospitalBusiness/bin/Debug/net9.0/HospitalBusiness.dll
+/Users/pankajyadav/MediNexus_API/HospitalBusiness/bin/Debug/net9.0/HospitalBusiness.pdb
+/Users/pankajyadav/MediNexus_API/HospitalBusiness/bin/Debug/net9.0/HospitalData.dll
+/Users/pankajyadav/MediNexus_API/HospitalBusiness/bin/Debug/net9.0/HospitalData.pdb
+/Users/pankajyadav/MediNexus_API/HospitalBusiness/obj/Debug/net9.0/HospitalBusiness.csproj.AssemblyReference.cache
+/Users/pankajyadav/MediNexus_API/HospitalBusiness/obj/Debug/net9.0/HospitalBusiness.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pankajyadav/MediNexus_API/HospitalBusiness/obj/Debug/net9.0/HospitalBusiness.AssemblyInfoInputs.cache
+/Users/pankajyadav/MediNexus_API/HospitalBusiness/obj/Debug/net9.0/HospitalBusiness.AssemblyInfo.cs
+/Users/pankajyadav/MediNexus_API/HospitalBusiness/obj/Debug/net9.0/HospitalBusiness.csproj.CoreCompileInputs.cache
+/Users/pankajyadav/MediNexus_API/HospitalBusiness/obj/Debug/net9.0/Hospital.788AD15E.Up2Date
+/Users/pankajyadav/MediNexus_API/HospitalBusiness/obj/Debug/net9.0/HospitalBusiness.dll
+/Users/pankajyadav/MediNexus_API/HospitalBusiness/obj/Debug/net9.0/refint/HospitalBusiness.dll
+/Users/pankajyadav/MediNexus_API/HospitalBusiness/obj/Debug/net9.0/HospitalBusiness.pdb
+/Users/pankajyadav/MediNexus_API/HospitalBusiness/obj/Debug/net9.0/ref/HospitalBusiness.dll

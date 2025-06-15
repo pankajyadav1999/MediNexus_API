@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "knH40N9sH5E=",
+  "success": true,
+  "projectFilePath": "/Users/pankajyadav/MediNexus_API/HospitalBusiness/HospitalBusiness.csproj",
+  "expectedPackageFiles": [
+    "/Users/pankajyadav/.nuget/packages/microsoft.entityframeworkcore.abstractions/9.0.6/microsoft.entityframeworkcore.abstractions.9.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

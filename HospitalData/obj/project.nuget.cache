@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cFG1q+1CMnM=",
+  "success": true,
+  "projectFilePath": "/Users/pankajyadav/MediNexus_API/HospitalData/HospitalData.csproj",
+  "expectedPackageFiles": [
+    "/Users/pankajyadav/.nuget/packages/microsoft.entityframeworkcore.abstractions/9.0.6/microsoft.entityframeworkcore.abstractions.9.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}
