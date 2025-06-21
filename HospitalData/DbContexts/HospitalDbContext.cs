@@ -7,6 +7,7 @@ namespace HospitalData.Dbcontexts
     {
         public HospitalDbContext(DbContextOptions options) : base(options) { }
 
+
         public DbSet<Patient> patients { get; set; } = null!;
     }
 }
