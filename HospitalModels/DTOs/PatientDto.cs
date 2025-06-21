@@ -9,6 +9,21 @@ namespace HospitalModels.DTOs
         public int Age { get; set; }
         public DateTime DateOfBirth { get; set; }
 
+        public string ContactNumber { get; set; } = null!;
+
+        public string Email { get; set; } = null!;
+
+        public string Address { get; set; } = null!;
+
+        public string BloodGroup { get; set; } = null!;
+
+        public string? MedicalHistory { get; set; }
+
+        public string? EmergencyContact { get; set; }
+
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+
+        public DateTime? UpdatedAt { get; set; }
     }
 
 }

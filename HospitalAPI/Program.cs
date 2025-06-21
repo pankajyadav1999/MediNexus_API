@@ -10,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Register DbContext
 builder.Services.AddDbContext<HospitalDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("hospitalString")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Hospitalstring")));
 
 // Register AutoMapper
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
