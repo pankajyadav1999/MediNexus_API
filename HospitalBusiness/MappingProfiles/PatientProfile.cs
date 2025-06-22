@@ -8,8 +8,9 @@ namespace HospitalAPI.MappingProfile
     {
         public AutoMapperProfile()
         {
-            CreateMap<PatientDto, Patient>();
+            CreateMap<PatientDto, Patient>(); //----post-api-controller-api----//
             CreateMap<Patient, PatientDto>(); // optional: if needed for GETs
+            CreateMap<Patient, PatientDto>().ReverseMap(); //----update-add-maping--//
         }
     }
 }
