@@ -2,6 +2,7 @@ namespace HospitalModels.DTOs
 {
     public class PatientDto
     {
+        public int Id { get; set; } // -----primary -key-----//
         public string Name { get; set; } = null!;
 
         public string Gender { get; set; } = null!;
