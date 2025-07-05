@@ -1,7 +1,9 @@
-using HospitalBusiness.Interfaces;
+using HospitalBusiness.Interfaces; 
 using HospitalBusiness.Managers;
 using HospitalData.Dbcontexts;
 using HospitalData.UnitOfWork;
+using HospitalData.Interfaces;
+using HospitalData.Repositories;
 using HospitalAPI.MappingProfile;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
@@ -15,11 +17,19 @@ builder.Services.AddDbContext<HospitalDbContext>(options =>
 // Register AutoMapper
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 
-// Register DI
+// Register Repositories
+builder.Services.AddScoped<IUserRepository, UserRepository>();      
+builder.Services.AddScoped<IPatientRepository, PatientRepository>(); 
+
+// Register Unit of Work and Managers
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IPatientManager, PatientManager>();
+builder.Services.AddScoped<IUserManager, UserManager>();
 
-// Register Swagger with metadata
+
+
+
+// Register Swagger
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Hospital API", Version = "v1" });
@@ -39,7 +49,5 @@ app.UseSwaggerUI(c =>
 });
 
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();

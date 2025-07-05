@@ -11,6 +11,12 @@ namespace HospitalAPI.MappingProfile
             CreateMap<PatientDto, Patient>(); //----post-api-controller-api----//
             CreateMap<Patient, PatientDto>(); // optional: if needed for GETs
             CreateMap<Patient, PatientDto>().ReverseMap(); //----update-add-maping--//
+
+            CreateMap<UserDTO, User>().ReverseMap();//----register---//
+            
+            CreateMap<UserDTO, User>(); //--login -----//
+            CreateMap<User, UserDTO>().ReverseMap();
+
         }
     }
 }

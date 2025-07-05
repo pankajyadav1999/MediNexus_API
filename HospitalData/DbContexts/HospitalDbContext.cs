@@ -9,5 +9,7 @@ namespace HospitalData.Dbcontexts
 
 
         public DbSet<Patient> patients { get; set; } = null!;
+
+        public DbSet<User> users { get; set; } = null!;
     }
 }
