@@ -1,4 +1,4 @@
-using HospitalBusiness.Interfaces; 
+using HospitalBusiness.Interfaces;
 using HospitalBusiness.Managers;
 using HospitalData.Dbcontexts;
 using HospitalData.UnitOfWork;
@@ -18,16 +18,25 @@ builder.Services.AddDbContext<HospitalDbContext>(options =>
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 
 // Register Repositories
-builder.Services.AddScoped<IUserRepository, UserRepository>();      
-builder.Services.AddScoped<IPatientRepository, PatientRepository>(); 
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IPatientRepository, PatientRepository>();
 
 // Register Unit of Work and Managers
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IPatientManager, PatientManager>();
 builder.Services.AddScoped<IUserManager, UserManager>();
 
-
-
+// ✅ Register CORS Policy
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAngularApp",
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:4200") // Angular dev server
+                  .AllowAnyHeader()  // Allow all request headers (like Content-Type, Authorization)
+                  .AllowAnyMethod(); // Allow all Post, Put ,Patch, Delete
+        });
+});
 
 // Register Swagger
 builder.Services.AddSwaggerGen(c =>
@@ -39,6 +48,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
 var app = builder.Build();
+
+// ✅ Use CORS before controllers
+app.UseCors("AllowAngularApp");
 
 app.UseSwagger();
 app.UseSwaggerUI(c =>
